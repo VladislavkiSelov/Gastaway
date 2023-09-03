@@ -1,0 +1,44 @@
+{
+  "name": "gastaway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "build": "webpack",
+  "start": "webpack --watch",
+  "deploy": "gh-pages -d dist"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavkiSelov/Gastaway.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavkiSelov/Gastaway/issues"
+  },
+  "homepage": "https://github.com/VladislavkiSelov/Gastaway#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
+
+
+
+
