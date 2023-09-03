@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    .box_logo {
+        max-width: 160px;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            margin-left: 40px;
+            cursor: pointer;
+
+            &:hover {
+                color: $color_1_hover;
+            }
+
+            &:active {
+                color: $color_1_active;
+            }
+        }
+    }
+}

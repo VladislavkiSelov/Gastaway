@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 130px;
+
+    .logo {
+        width: 225px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+
+        li {
+            margin-bottom: 40px;
+            cursor: pointer;
+
+            &:hover {
+                color: $color_1_hover;
+            }
+
+            &:active {
+                color: $color_1_active;
+            }
+        }
+    }
+
+    .box_social_link {
+        a {
+            margin-right: 10px;
+
+            &:hover {
+                svg {
+                    * {
+                        stroke: $color_1_hover;
+                    }
+                }
+            }
+        }
+    }
+
+    .box_icon {
+        img {
+            margin-right: 17px;
+            transition: 0.7s;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

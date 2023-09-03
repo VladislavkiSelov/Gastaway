@@ -3,10 +3,17 @@
 @import './fonts.scss';
 @import './variable.scss';
 @import './container.scss';
+@import './component/header.scss';
+@import './component/footer.scss';
+@import './component/main.scss';
 
 
 * {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -15,12 +22,18 @@ body {
     font-weight: 400;
     background: $color_main;
     color: white;
+    height: 100vh;
+}
+
+.active {
+    color: $color_1;
 }
 
 .common_block {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
 }
 
 .img {
