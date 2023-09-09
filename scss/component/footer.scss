@@ -50,4 +50,24 @@
             }
         }
     }
+
+    @media screen and (max-width: 920px) {
+        .navigation_2 {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        nav {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+        display: block;
+
+        .box_logo {
+            margin-bottom: 20px;
+        }
+    }
 }
