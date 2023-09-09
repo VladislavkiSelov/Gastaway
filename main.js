@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./scss/style.scss\");\n\r\n\r\nconst burger = document.querySelector('.burger_header')\r\nburger.addEventListener('click', () => {\r\n    const navigation = document.querySelector('.navigation')\r\n    if (navigation.style.display === \"block\") {\r\n        navigation.style.display = \"none\";\r\n        burger.classList.remove('close_burger')\r\n        return\r\n    } \r\n    navigation.style.display = \"block\"\r\n    burger.classList.add('close_burger')\r\n})\r\n\n\n//# sourceURL=webpack://gastaway/./js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./scss/style.scss\");\n\r\nconst imgArray = Array.from(document.querySelectorAll('img'));\r\nimgArray.forEach((element) => {\r\n    element.setAttribute('src', `https://vladislavkiselov.github.io/Gastaway/${element.getAttribute('src')}`)\r\n    // element.getAttribute('src')\r\n})\r\nconst burger = document.querySelector('.burger_header')\r\nburger.addEventListener('click', () => {\r\n    const navigation = document.querySelector('.navigation')\r\n    if (navigation.style.display === \"block\") {\r\n        navigation.style.display = \"none\";\r\n        burger.classList.remove('close_burger')\r\n        return\r\n    }\r\n    navigation.style.display = \"block\"\r\n    burger.classList.add('close_burger')\r\n})\r\n\n\n//# sourceURL=webpack://gastaway/./js/script.js?");
 
 /***/ }),
 
